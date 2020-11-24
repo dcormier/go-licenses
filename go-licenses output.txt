@@ -1,0 +1,32 @@
+> go-licenses csv ./...
+E1124 13:39:33.985051    5489 library.go:108] Failed to find license for github.com/dcormier/go-licenses: no file/directory matching regexp "^(?i)(LICEN(S|C)E|COPYING|README|NOTICE)(\\..+)?$" found for /Users/daniel/dev/go-licenses
+E1124 13:39:35.655555    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/go.uber.org/atomic@v1.7.0/LICENSE.txt":
+- cannot determine URL for "go.uber.org/atomic" package
+E1124 13:39:35.660957    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/contrib.go.opencensus.io/exporter/aws@v0.0.0-20200617204711-c478e41e60e9/LICENSE":
+- unsupported package host "contrib.go.opencensus.io" for "contrib.go.opencensus.io/exporter/aws"
+E1124 13:39:35.698183    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/go.opencensus.io@v0.22.5/LICENSE":
+- cannot determine URL for "go.opencensus.io" package
+E1124 13:39:35.766210    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/go.uber.org/fx@v1.13.1/LICENSE":
+- cannot determine URL for "go.uber.org/fx" package
+E1124 13:39:35.770829    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/go.uber.org/multierr@v1.6.0/LICENSE.txt":
+- cannot determine URL for "go.uber.org/multierr" package
+E1124 13:39:35.778800    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/golang.org/x/text@v0.3.4/LICENSE":
+- unsupported package host "golang.org" for "golang.org/x/text"
+E1124 13:39:35.827558    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/go.uber.org/dig@v1.10.0/LICENSE":
+- cannot determine URL for "go.uber.org/dig" package
+E1124 13:39:35.834144    5489 csv.go:84] Error discovering URL for "/Users/daniel/go/pkg/mod/golang.org/x/net@v0.0.0-20201110031124-69a78807bb2b/LICENSE":
+- unsupported package host "golang.org" for "golang.org/x/net/idna"
+go.uber.org/atomic,Unknown,MIT
+github.com/dcormier/go-licenses,Unknown,Unknown
+contrib.go.opencensus.io/exporter/aws,Unknown,Apache-2.0
+github.com/jmespath/go-jmespath,https://github.com/jmespath/go-jmespath/blob/master/LICENSE,Apache-2.0
+go.opencensus.io,Unknown,Apache-2.0
+github.com/golang/groupcache/lru,https://github.com/golang/groupcache/blob/master/lru/LICENSE,Apache-2.0
+go.uber.org/fx,Unknown,MIT
+go.uber.org/multierr,Unknown,MIT
+golang.org/x/text,Unknown,BSD-3-Clause
+github.com/aws/aws-sdk-go,https://github.com/aws/aws-sdk-go/blob/master/LICENSE.txt,Apache-2.0
+github.com/aws/aws-sdk-go/internal/sync/singleflight,https://github.com/aws/aws-sdk-go/blob/master/internal/sync/singleflight/LICENSE,BSD-3-Clause
+go.uber.org/dig,Unknown,MIT
+golang.org/x/net/idna,Unknown,BSD-3-Clause
+> 
